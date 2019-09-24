@@ -341,7 +341,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 #why_us .fa{
     border-radius: 100%;
     box-shadow: 0 0 0 10px #2E64FE, 0 0 0 20px #2e64fe69, 0 0 0 30px #0046913b;
-    padding: 38px;
+    padding: 38px 0px;
     font-size:45px;
 }
 .why_us_item > h4 {
@@ -614,7 +614,7 @@ footer {
     position:relative;
     padding-top:45px;
 }
-footer::before {
+/* footer::before {
     background: rgba(255, 255, 255, 0.33) none repeat scroll 0 0;
     content: "";
     height: 45px;
@@ -623,9 +623,9 @@ footer::before {
     top: 0;
     width: 100%;
     z-index: 1;
-}
+} */
 footer::after {
-    background: rgba(34, 37, 51, 0.9) none repeat scroll 0 0;
+    background: rgba(85, 114, 254, 0.68) none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -1116,7 +1116,7 @@ footer::after {
     text-align: center;
   }
   .logo{
-    width: 220px;
+    width: 305px;
     }
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
@@ -1152,4 +1152,33 @@ footer::after {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+}
+
+
+.why_us_item .fa-lightbulb:before {
+    content: "\f0eb";
+    border: 3px solid;
+    padding: 16px 24px;
+    border-radius: 100%;
+}
+
+.why_us_item .fa-users:before {
+    content: "\f0c0";
+    border: 3px solid;
+    padding: 16px 12px;
+    border-radius: 100%;
+}
+
+.why_us_item .fa-check-circle:before {
+    content: "\f058";
+    border: 3px solid;
+    padding: 15px 16px;
+    border-radius: 100%;
+}
+
+.why_us_item .fa-balance-scale:before {
+    content: "\f24e";
+    border: 3px solid;
+    padding: 15px 11px;
+    border-radius: 100%;
 }
