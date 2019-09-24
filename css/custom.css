@@ -233,7 +233,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     color:#2E64FE;
     margin-bottom:35px;
 }
-.carousel-caption > h3 {
+.carousel-caption h3 {
     color: #fff;
     font-family: "futura_ltbook",sans-serif;
     font-size: 40px;
