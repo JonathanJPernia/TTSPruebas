@@ -556,8 +556,9 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 /* Contact form */
 #contact_form {
-    background: #5572fe none repeat scroll 0 0;
+    background: #f2f7fa none repeat scroll 0 0; 
     padding:27px 0 32px;
+    border-top: 1px solid #bacee2;
 }
 #contact_form h2 {
     margin: 20px 0 0;
@@ -625,7 +626,7 @@ footer {
     z-index: 1;
 } */
 footer::after {
-    background: rgba(85, 114, 254, 0.68) none repeat scroll 0 0;
+    background: rgba(26, 28, 39, 0.53) none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
