@@ -339,9 +339,9 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .why_us_item{ padding-top: 55px;}
 #why_us .fa{
-    border-radius: 100%;
+    /* border-radius: 100%;
     box-shadow: 0 0 0 10px #2E64FE, 0 0 0 20px #2e64fe69, 0 0 0 30px #0046913b;
-    padding: 38px 0px;
+    padding: 38px 0px; */
     font-size:45px;
 }
 .why_us_item > h4 {
