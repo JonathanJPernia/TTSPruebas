@@ -714,6 +714,13 @@ footer::after {
     float: left;
     font-size:18px;
 }
+.footer_contact .fab {
+    margin-right: 25px;
+    text-align: center;
+    width: 15px;
+    float: left;
+    font-size:18px;
+}
 .list-unstyled.footer_contact p {
     overflow: hidden;
 }
